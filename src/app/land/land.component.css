@@ -28,7 +28,7 @@
   margin-top: 2rem;
   padding: 1em 1.5em;
   border: solid 1px #cf0008;
-  color: #cf0008;
+  color: #fff;
   font-weight: 500;
   background-color: transparent;
   transition: 0.4s;
@@ -90,6 +90,9 @@
   transition: 0.3s;
 }
 
+#services {
+  background-color: #fff;
+}
 
 /** For Animations:
       https://css-tricks.com/aos-css-driven-scroll-animation-library/
