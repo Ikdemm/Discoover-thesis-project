@@ -82,7 +82,14 @@
   width: 2.3em;
   height: 2.3em;
   margin: 0.2em;
+  transition: 0.3s;
 }
+
+.team-icon:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
 
 /** For Animations:
       https://css-tricks.com/aos-css-driven-scroll-animation-library/
