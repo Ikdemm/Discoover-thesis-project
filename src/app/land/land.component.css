@@ -78,6 +78,11 @@
   object-fit: cover;
 }
 
+.team-icon {
+  width: 2.3em;
+  height: 2.3em;
+}
+
 /** For Animations:
       https://css-tricks.com/aos-css-driven-scroll-animation-library/
 **/
