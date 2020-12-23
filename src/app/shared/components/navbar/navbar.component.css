@@ -69,13 +69,15 @@ mat-toolbar a {
   margin: 0 10px;
   color: white;
   font-weight: lighter;
+  transition: 0.4s;
 }
 .toolbar-nav {
   margin: 0 10px;
 }
 
 mat-nav-list > a:hover {
-  color: hsl(0, 0%, 77%)
+  color: hsl(0, 0%, 77%);
+  transition: 0.4s;
 }
 
 .signin-button {
@@ -88,12 +90,14 @@ mat-nav-list > a:hover {
   padding: 0 10px;
   border-radius: 3px;
   margin-left: 10px;
+  transition: 0.4s;
 }
 
 .signin-button:hover {
   border: 1px solid #fff;
   background-color: #fff;
   color: #cf0008;
+  transition: 0.4s;
 }
 
 .navbar-item {

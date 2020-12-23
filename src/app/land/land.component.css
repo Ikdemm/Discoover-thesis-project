@@ -31,6 +31,7 @@
   color: #cf0008;
   font-weight: 500;
   background-color: transparent;
+  transition: 0.4s;
 }
 
 .header-btn:hover {
