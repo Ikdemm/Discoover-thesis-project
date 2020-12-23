@@ -74,6 +74,10 @@
   transition: .2s ease;
 }
 
+.team-img {
+  object-fit: cover;
+}
+
 /** For Animations:
       https://css-tricks.com/aos-css-driven-scroll-animation-library/
 **/
