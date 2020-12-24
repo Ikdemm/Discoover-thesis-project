@@ -21,14 +21,12 @@
       </div>
       <div class="col-2">
         <button
-          mat-raised-button
-          color="warn"
           type="submit"
-          class="btn form-control-lg search-bar-button"
+          class="search-bar-button"
           (click)="getData()"
         >
-
-          <mat-icon class="mat-18">search</mat-icon>
+        <fa-icon [icon]="faSearch"></fa-icon>
+        &nbsp;
           Search
         </button>
       </div>

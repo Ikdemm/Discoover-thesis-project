@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy, ViewEncapsulation } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Trip } from '../../../server/models/Trips.js';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-search-trip',
@@ -10,6 +11,7 @@ import { Trip } from '../../../server/models/Trips.js';
   encapsulation: ViewEncapsulation.None,
 })
 export class SearchTripComponent implements OnInit {
+  faSearch = faSearch;
   trips: Trip[];
   pickedDate: any;
   searchLocation = '';

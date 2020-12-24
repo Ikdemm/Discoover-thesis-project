@@ -46,14 +46,23 @@ img {
   height: 50px;
   width: 100%;
   padding-left: 10px;
-  padding-right: 0;
+  padding-right: 10px;
 }
 
 .search-bar-button {
-  font-size: 20px;
-  width: 150px;
-  height: 50px;
   background-color: #cf0008;
-  color: #FFF;
-  font-weight: 500;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 0.9em;
+  border-color: transparent;
+  font-family: "Raleway", sans-serif;
+  transition: .3s;
+}
+
+.search-bar-button:hover {
+  background-color: darkred;
+  transition: .3s;
+  color: #fff !important;
 }
