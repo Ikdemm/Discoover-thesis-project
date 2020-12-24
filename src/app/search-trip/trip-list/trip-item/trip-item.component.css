@@ -12,11 +12,17 @@ section {
   margin-bottom:10%;
 }
 
+.card-title {
+  margin: 0;
+  padding: 0;
+}
+
 .card-img {
   position: relative;
   overflow: hidden;
   border-radius: 0;
   z-index: 1;
+  background-color: rgba(248, 247, 216, 0.7);
 }
 
 .card-img img {
@@ -28,24 +34,23 @@ section {
 .card-img span {
   position: absolute;
   top: 15%;
-  left: 12%;
+  right: 0;
   background: #cf0008;
-  padding: 6px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10px;
+  padding-bottom: 0 !important;
   color: #fff;
-  font-size: 12px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  transform: translate(-50%, -50%);
+  font-size: 20px !important;
+  border-radius: 0;
+  font-family: "Raleway", sans-serif;
 }
+
 .card-img span h4 {
-  font-size: 12px;
-  margin: 0;
-  padding: 10px 5px;
-  line-height: 0;
+  font-size: 15px;
+  font-weight: 700;
 }
+
 .card-desc {
   padding: 1.25rem;
 }
