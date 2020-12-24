@@ -1,24 +1,27 @@
 <!-- <app-visitor-navbar></app-visitor-navbar> -->
 <div class="row col-12">
-  <div class="section col-4">
+
+  <div (click)="onClick('traveler')" class="section col-4">
     <img class="landing-img" src="/assets/img/get-started/traveler.jpg" alt="traveler" />
     <button (click)="onClick('traveler')" class="landing-btn">
-      Pick a trip
-    </button>
-  </div>
-  <div class="section col-4">
-    <img class="landing-img" src="/assets/img/get-started/organizer.jpg" alt="organizer" />
-    <button (click)="onClick('organizer')" class="landing-btn">
-      Organize a trip
+      Pick Trip
     </button>
   </div>
 
-  <div class="section col-4">
-    <img class="landing-img" src="/assets/img/get-started/guide.jpg" alt="guide" />
-    <button (click)="onClick('guide')" class="landing-btn">
-      Guide a trip
+  <div (click)="onClick('organizer')" class="section col-4">
+    <img class="landing-img" src="/assets/img/get-started/organizer.jpg" alt="organizer" />
+    <button (click)="onClick('organizer')" class="landing-btn">
+      Organize Trip
     </button>
   </div>
+
+  <div (click)="onClick('guide')" class="section col-4">
+    <img class="landing-img" src="/assets/img/get-started/guide.jpg" alt="guide" />
+    <button (click)="onClick('guide')" class="landing-btn">
+      Guide Trip
+    </button>
+  </div>
+
 </div>
 
 
