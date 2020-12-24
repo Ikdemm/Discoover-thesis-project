@@ -52,6 +52,7 @@ const routes: Routes = [
   { path: 'trips/:id/details', component: TripDetailsVistorComponent },
   { path: 'travelers/:id/profile', component: ProfileComponent },
   { path: 'travelers/:id/profile/settings', component: EditTravelerProfileComponent },
+  { path: 'getstarted', component: LandingPageComponent }
 ];
 
 @NgModule({
