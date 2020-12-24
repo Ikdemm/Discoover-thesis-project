@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './shared/angular-material.module';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { VisitorNavbarComponent } from './landing-page/visitor-navbar/visitor-navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SearchTripComponent } from './search-trip/search-trip.component';
@@ -89,6 +91,7 @@ import { GuidePropsalasListComponent } from './guide/guide-propsalas-list/guide-
     TravelerModule,
     FlashMessagesModule.forRoot(),
     GoogleMapsModule,
+    FontAwesomeModule
   ],
   providers: [authInterceptorProviders],
   bootstrap: [AppComponent],

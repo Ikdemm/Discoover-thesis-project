@@ -60,17 +60,21 @@ section {
   padding: 0;
 }
 
-.card-desc p {
+.card-text {
   color: #747373;
   font-size: 14px;
   font-weight: 400;
   font-size: 1em;
-  line-height: 1.5;
+  margin-bottom: 5px;
   margin: 0px;
-  margin-bottom: 20px;
   padding: 0;
   font-family: "Raleway", sans-serif;
 }
+
+/* .card-icon {
+  padding-top: 5px;
+} */
+
 .btn-card {
   background-color: #1abc9c;
   color: #fff;
@@ -99,10 +103,24 @@ section {
   word-wrap: break-word;
   color: #fff;
 }
+
 .btn-card:hover {
   background: orange;
 }
+
 a.btn-card {
   text-decoration: none;
   color: #fff;
+}
+
+.card-title {
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  text-transform: uppercase;
 }

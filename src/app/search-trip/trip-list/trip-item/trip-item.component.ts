@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { faMapMarker } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-trip-item',
@@ -9,6 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class TripItemComponent implements OnInit {
 @Input()
   trip;
+  faMapMarker = faMapMarker;
 
   constructor() { }
 

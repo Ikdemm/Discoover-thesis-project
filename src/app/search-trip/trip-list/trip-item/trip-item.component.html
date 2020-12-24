@@ -2,22 +2,21 @@
   <div class="card-img">
     <img src="https://placeimg.com/380/230/nature" alt="Location Picture" />
     <span>
-      <h4>{{ trip.price }} DT</h4>
+      <h5>{{ trip.price }} DT</h5>
     </span>
   </div>
   <div class="card-desc">
-    <h3>{{ trip.title }}</h3>
-    <p>
-      <mat-icon> location_on </mat-icon>
+    <h4 class="card-title">{{ trip.title }}</h4>
+    <p class="card-text">
+      <fa-icon [icon]="faMapMarker"></fa-icon>
       {{ trip.location }}
     </p>
-    <p>
-      <mat-icon>today</mat-icon>
+    <p class="card-text">
+      <mat-icon class="card-icon">today</mat-icon>
       {{ trip.date.split("T")[0] }}
     </p>
-    <p>
-      <span class="material-icons"> departure_board </span>
-
+    <p class="card-text">
+      <span class="material-icons" class="card-icon"> departure_board </span>
       {{ trip.maxTravelers - trip.travelers.length }} remaining places
     </p>
     <a class="btn-card" [routerLink]="['/trips', trip._id, 'details']"
