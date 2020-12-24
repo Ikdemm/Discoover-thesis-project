@@ -8,19 +8,17 @@
   <div class="card-desc">
     <h4 class="card-title">{{ trip.title }}</h4>
     <p class="card-text">
-      <fa-icon [icon]="faMapMarker"></fa-icon>
+      <fa-icon [icon]="faMapMarkerAlt"></fa-icon>
       {{ trip.location }}
     </p>
     <p class="card-text">
-      <mat-icon class="card-icon">today</mat-icon>
+      <fa-icon [icon]="faCalendar"></fa-icon>
       {{ trip.date.split("T")[0] }}
     </p>
     <p class="card-text">
-      <span class="material-icons" class="card-icon"> departure_board </span>
+      <fa-icon [icon]="faBus"></fa-icon>
       {{ trip.maxTravelers - trip.travelers.length }} remaining places
     </p>
-    <a class="btn-card" [routerLink]="['/trips', trip._id, 'details']"
-      >Show more</a
-    >
+    <button class="card-btn" [routerLink]="['/trips', trip._id, 'details']">Discoover</button>
   </div>
 </div>

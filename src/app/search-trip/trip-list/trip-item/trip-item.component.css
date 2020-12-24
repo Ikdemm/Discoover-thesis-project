@@ -29,7 +29,7 @@ section {
   position: absolute;
   top: 15%;
   left: 12%;
-  background: #1abc9c;
+  background: #cf0008;
   padding: 6px;
   color: #fff;
   font-size: 12px;
@@ -74,6 +74,24 @@ section {
 /* .card-icon {
   padding-top: 5px;
 } */
+
+.card-btn {
+  background-color: #cf0008;
+  color: #fff;
+  padding: .2em 1em;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 1em;
+  border-radius: 5px;
+  border-color: transparent;
+  font-family: "Raleway", sans-serif;
+  transition: .3s;
+}
+
+.card-btn:hover {
+  background-color: darkred;
+  transition: .3s;
+}
 
 .btn-card {
   background-color: #1abc9c;
